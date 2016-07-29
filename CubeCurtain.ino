@@ -24,7 +24,7 @@ const int stepsToTake = 100;  //Spin motor this  many steps.  Ours had 200 steps
 int buttonone = 0;            //Clockwise control
 int buttontwo = 0;            //Counterclockwise control
 // initialize the stepper library on pins 8 through 11:
-Stepper myStepper(stepsPerRevolution, 8, 9, 10, 11);
+Stepper myStepper(stepsToTake, 8, 9, 10, 11);
 
 
 void setup() {
